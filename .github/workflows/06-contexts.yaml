@@ -3,10 +3,10 @@ name: 06 - Contexts
 on: 
     push:
     workflow_dispatch:
-        
+
 jobs:
-    echo_data:
-        runs-on: ubuntu_latest
+    echo-data:
+        runs-on: ubuntu-latest
         steps:
             - name: Display information
               run: |
